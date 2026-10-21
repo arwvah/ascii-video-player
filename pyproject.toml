@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ascii-video-player"
+version = "1.0.0"
+description = "Smooth colored terminal video playback and ASCII MP4 export"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "opencv-python-headless>=4.9,<5", "Pillow>=10.2,<13"]
+readme = "README.md"
+license = "MIT"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+ascii-video = "ascii_player.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ascii_player*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
