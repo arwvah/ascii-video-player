@@ -8,7 +8,7 @@
 
 Smooth terminal playback. Rich color. A candle for the quiet moments.
 
-Python 3.11+ · OpenCV · NumPy · Pillow · [MIT licensed](LICENSE)
+Python 3.11+ · OpenCV · NumPy · Pillow · [Apache 2.0 licensed](LICENSE)
 
 [Quick start](#quick-start) · [Gallery](#gallery) · [Examples](#examples) · [Export](#export-an-mp4) · [CLI reference](#cli-reference)
 
@@ -334,4 +334,6 @@ the terminal. No external image assets or fonts are bundled.
 
 ## License
 
-[MIT](LICENSE). Make something fun with it.
+[Apache License 2.0](LICENSE). Make something fun with it.
+
+Third-party components retain their respective licenses.
